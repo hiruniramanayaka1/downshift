@@ -1,5 +1,6 @@
 name: validate
 on:
+  workflow_dispatch:
   push:
     branches:
       - '+([0-9])?(.{+([0-9]),x}).x'
